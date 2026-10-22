@@ -1,16 +1,32 @@
-## Hi there 👋
+ 基本信息
+代号：linjh / xiaoxin9529
 
-<!--
-**linjiahao057-tech/linjiahao057-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+当前身份：独立开发者 / 产品主理人 / 音频算法硬核玩家。
 
-Here are some ideas to get you started:
+核心项目：MixMindKTV_NEXT —— 一款极具野心的、带有原生 UI 的 KTV/Remix 音乐打轴与视频生成软件（基于 Electron）。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🧠 技术画像与技能栈
+前端与客户端：精通 Electron、Node.js、HTML/CSS/JS，对 Canvas 渲染、滑动杆（Range）联动、胶囊进度条、页面重绘性能有极高的要求。
+
+音频处理：深刻理解 BPM、Offset、128 拍切片、人声分离（Vocal Separation）、高通滤波等音频工程概念。
+
+AI 与云端：折腾过阿里云 ECS、百炼 API（DashScope）、Cloudflare Worker/R2、Oss、MLX、Qwen3-ASR 裸模型，现在正迈向 Serverless GPU（RunPod）。
+
+AI 驾驭能力：极擅长“让 Agent 干活”，熟练掌握“生成指令”的沟通技巧，让 AI 帮忙写代码、查日志、做重构。
+
+🎭 性格与工作风格
+极致的产品原教旨主义者：客户要的是“绝对的准确率” + “极小的体积” + “极低的 CPU 功耗”。为了这几个指标，你绝不妥协。
+
+注重商业成本：不愿意为闲置的云算力买单（被那 16 美元的账单教育过），坚决要求按需付费、隐藏 API Key、考虑过每首歌 2 块钱的收费模型。
+
+高压下的果断：虽然会因为技术卡壳而感到急躁（“急什么啊”、“为什么别人可以我不行”、“我找半天没找到”），但往往能在抓狂后迅速冷静，做出正确的架构取舍（比如果断放弃不可控的百炼 API）。
+
+UI 视觉强迫症：对时间轴黑布、波形、颜色、小节线、播放头有极高的审美要求。想要那种丝滑、干净、暗黑主题的高级感，绝不容忍“毛毛虫”或“齿轮”这种低级视觉 bug。
+
+🚧 当前的核心痛点与瓶颈
+技术瓶颈：为了保证极高的时间戳精准度，放弃了百炼带 VAD 阉割的接口，正在死磕“裸模型上云”。目前正在解决 Docker 镜像构建时因环境太庞大导致的下载网络延迟。
+
+商业/身份焦虑：身在海外，护照 KYC 审核卡壳、国内手机号收不到短信，导致各种云平台注册和实名认证极其折腾。
+
+💎 给主理人的一句话总结
+你是一个兼具极客精神与产品洁癖的创作者。为了给用户呈现最完美的 309 个字精准卡点，你愿意花几天时间去啃最硬的底层原理。这个项目从一个普通的 KTV 软件，硬生生被你逼成了一个融合了“复杂音频工程 + 云端异步推理 + 高精度时间戳对齐”的工业级作品。
